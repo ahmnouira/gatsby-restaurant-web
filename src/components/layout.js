@@ -2,6 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
+import Navbar from "./navbar/Navbar"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <GlobalStyle></GlobalStyle>
+      <Navbar />
       <main>{children}</main>
     </React.Fragment>
   )
