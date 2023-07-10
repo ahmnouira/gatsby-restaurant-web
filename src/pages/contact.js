@@ -1,16 +1,15 @@
 import * as React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { PageHero } from "../components/hero"
-import contactImg from "../images/bcg/contactBcg.jpg"
+import img from "../images/bcg/contactBcg.jpg"
+import Wrapper from "../components/wrapper"
 
 const ContactPage = () => (
-  <Layout>
-    <SEO title={"Contact"}></SEO>
-
-    <PageHero img={contactImg}>
-      <h3>Contact Page</h3>
-    </PageHero>
-  </Layout>
+  <Wrapper
+    title={"Contact"}
+    img={img}
+    banner={{
+      title: "contact us",
+      subtitle: "let's get in touch",
+    }}
+  />
 )
 export default ContactPage
