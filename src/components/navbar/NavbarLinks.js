@@ -61,15 +61,15 @@ const LinkWrapper = styled.ul`
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
-
   height: ${props => (props.open ? "152px" : "0px")};
   overflow: hidden;
-  ${styles.transObject({ time: "1s" })}
-
+  ${styles.transObject({ time: "1s" })};
   // Styles for the Navbar for bigger screens
   @media (min-width: 768px) {
     height: auto;
     display: flex;
+    overflow: visible;
+    flex-direction: row;
     margin: 0 auto;
     .nav-link:hover {
       background: ${styles.colors.mainWhite};
