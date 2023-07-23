@@ -1,6 +1,6 @@
 import * as React from "react"
-import Wrapper from "../components/wrapper"
 import img from "../images/bcg/menuBcg.jpg"
+import Wrapper from "../components/wrapper"
 
 const MenuPage = () => (
   <Wrapper
