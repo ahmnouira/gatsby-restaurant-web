@@ -1,6 +1,6 @@
 import * as React from "react"
 import { styled } from "styled-components"
-import img from "../images/bcg/homeBcg.jpg"
+import img from "../../images/bcg/homeBcg.jpg"
 
 function HomeHero({ img, children }) {
   return <HeaderWrapper img={img}>{children}</HeaderWrapper>

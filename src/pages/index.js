@@ -1,5 +1,5 @@
 import * as React from "react"
-import Wrapper from "../components/wrapper"
+import Wrapper from "../components/wrapper/Wrapper"
 import QuickInfo from "../components/home/QuickInfo"
 
 const IndexPage = () => (

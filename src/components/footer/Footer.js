@@ -28,15 +28,17 @@ export default function Footer() {
       <div className="icons">
         {ICONS.map(item => (
           <a
+            className="icon"
             href={item.path}
             key={item.id}
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             {item.icon}
           </a>
         ))}
       </div>
+      <p className="copyright">copyright &copy; 2023 ahmnouira</p>
     </FooterWrapper>
   )
 }
@@ -53,14 +55,13 @@ const FooterWrapper = styled.footer`
   .icon {
     color: ${styles.colors.mainWhite};
     font-size: 1.3rem;
-    ${styles.transObject({})}
+    ${styles.transObject({})};
     &:hover {
       color: ${styles.colors.mainPrimary};
     }
   }
   .copyright {
     color: ${styles.colors.mainWhite};
-    text-transform: capitalize;
     text-align: center;
     margin: 1rem 0;
   }
@@ -72,6 +73,6 @@ const FooterWrapper = styled.footer`
     padding: 0.3rem 1rem;
     margin: 0 auto 2rem auto;
     font-size: 1.5rem;
-    ${styles.border({ color: `${styles.colors.mainYellow}` })}
+    ${styles.border({ color: `${styles.colors.mainYellow}` })};
   }
 `

@@ -1,6 +1,6 @@
 import * as React from "react"
 import img from "../images/bcg/aboutBcg.jpg"
-import Wrapper from "../components/wrapper"
+import Wrapper from "../components/wrapper/Wrapper"
 
 const AboutPage = () => (
   <Wrapper
