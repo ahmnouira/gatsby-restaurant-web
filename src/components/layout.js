@@ -1,10 +1,10 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
 import Navbar from "./navbar/Navbar"
 
 const Layout = ({ children }) => {
+  /*
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  */
 
   return (
     <React.Fragment>
