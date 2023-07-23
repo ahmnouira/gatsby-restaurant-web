@@ -1,1 +1,1 @@
-# gatsby-restaurant-website
+# gatsby-restaurant-web

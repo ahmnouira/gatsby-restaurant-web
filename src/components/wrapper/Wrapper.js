@@ -3,7 +3,7 @@ import { HomeHero, PageHero } from "../hero/Hero"
 import Banner from "../banner/Banner"
 import { BannerButton } from "../banner/BannerButton"
 import Layout from "../layout/Layout"
-import Seo from "../Seo"
+import Seo from "../seo"
 
 export default function Wrapper({ title, banner, img, children }) {
   const _renderContent = () => {

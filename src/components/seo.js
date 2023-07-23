@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 /// This file should be in src/components/Seo.js path
 
-function Seo({ description, title, children }) {
+export default function Seo({ description, title, children }) {
   const { site } = useStaticQuery(graphql`
     query {
       site {
@@ -34,5 +34,3 @@ function Seo({ description, title, children }) {
     </>
   )
 }
-
-export default Seo
