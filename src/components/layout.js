@@ -2,8 +2,9 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
 import Navbar from "./navbar/Navbar"
+import Footer from "./footer/Footer"
 
-const Layout = ({ children }) => {
+export default function Layout({ children }) {
   /*
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
       <GlobalStyle></GlobalStyle>
       <Navbar />
       <main>{children}</main>
+      <Footer />
     </React.Fragment>
   )
 }
@@ -41,5 +43,3 @@ const GlobalStyle = createGlobalStyle`
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
-export default Layout
