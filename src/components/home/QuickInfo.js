@@ -4,6 +4,7 @@ import styled from "styled-components"
 import { SectionButton } from "../banner/SectionButton"
 import { styles } from "../../utils"
 import { Link } from "gatsby"
+import { Section } from "./Section"
 
 export default function QuickInfo() {
   return (
@@ -23,12 +24,6 @@ export default function QuickInfo() {
     </Section>
   )
 }
-
-const Section = styled.section`
-  padding: 2rem 0;
-  width: 90vw;
-  margin: 0 auto;
-`
 
 const QuickInfoWrapper = styled.div`
   width: 90%;

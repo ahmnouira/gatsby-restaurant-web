@@ -1,6 +1,7 @@
 import * as React from "react"
 import Wrapper from "../components/wrapper/Wrapper"
 import QuickInfo from "../components/home/QuickInfo"
+import Gallery from "../components/home/Gallery"
 
 const IndexPage = () => (
   <Wrapper
@@ -11,6 +12,7 @@ const IndexPage = () => (
     }}
   >
     <QuickInfo />
+    <Gallery />
   </Wrapper>
 )
 export default IndexPage
