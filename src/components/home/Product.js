@@ -41,7 +41,7 @@ export const ProductWrapper = styled.div`
     margin-top: 0.5rem;
   }
   .price {
-    color: ${styles.colors.mainGrey};
+    color: ${styles.colors.mainYellow};
     margin-top: 0.5rem;
   }
   .info {
