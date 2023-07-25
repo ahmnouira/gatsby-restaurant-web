@@ -5,11 +5,14 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 export default function Product({ product }) {
   const { name, price, ingredients, image } = product
-  const gatsbyImageData = image.gatsbyImageData
+  const gatsbyImageData =
+    image && image.gatsbyImageData ? image.gatsbyImageData : null
 
   return (
     <ProductWrapper>
-      <GatsbyImage alt="" src="" image={gatsbyImageData} className="img" />
+      {gatsbyImageData && (
+        <GatsbyImage alt="" src="" image={gatsbyImageData} className="img" />
+      )}
       <div className="text">
         <div className="product-content">
           <h3 className="name">{name}</h3>
