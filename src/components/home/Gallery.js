@@ -36,6 +36,8 @@ export default function Gallery() {
   const img2 = data.img2.childImageSharp.fluid
   const img3 = data.img3.childImageSharp.fluid
 
+  console.log("img1", img1)
+
   return (
     <Section>
       <GalleryWrapper>

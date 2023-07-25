@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-restaurant-website",
+  "name": "gatsby-restaurant-web",
   "private": true,
   "description": "A simple restaurant website with Gatsby",
   "version": "0.1.0",
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmnouira/gatsby-restaurant-website"
+    "url": "https://github.com/ahmnouira/gatsby-restaurant-web"
   },
   "bugs": {
-    "url": "https://github.com/ahmnouira/gatsby-restaurant-website/issues"
+    "url": "https://github.com/ahmnouira/gatsby-restaurant-web/issues"
   }
 }

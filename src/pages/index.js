@@ -2,6 +2,7 @@ import * as React from "react"
 import Wrapper from "../components/wrapper/Wrapper"
 import QuickInfo from "../components/home/QuickInfo"
 import Gallery from "../components/home/Gallery"
+import Menu from "../components/home/Menu"
 
 const IndexPage = () => (
   <Wrapper
@@ -13,6 +14,7 @@ const IndexPage = () => (
   >
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Wrapper>
 )
 export default IndexPage
